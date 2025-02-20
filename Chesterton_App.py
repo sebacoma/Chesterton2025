@@ -35,3 +35,7 @@ st.line_chart(tickerDf['Close'])
 
 st.write("### Volumen de Operaciones")
 st.line_chart(tickerDf['Volume'])
+
+# Contar el número de formularios en el rango de fechas
+form_count = len(tickerDf)
+st.metric(label="Número de Formularios", value=form_count)
