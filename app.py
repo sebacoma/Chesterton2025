@@ -49,8 +49,7 @@ if st.sidebar.button("Cerrar sesión"):
     st.rerun()
 
 # ── Encabezado ────────────────────────────────────────
-st.title("🔧 Taller de Reparación de Sellos SQM")
-st.caption("Fuente: hoja **TallerReparación{recepción}**")
+st.title("🔧 Taller de Reparación de Sellos ")
 
 # ── Carga y limpieza de datos ─────────────────────────
 @st.cache_data
