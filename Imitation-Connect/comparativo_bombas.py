@@ -7,7 +7,7 @@ import streamlit as st
 import plotly.graph_objects as go
 
 st.set_page_config(page_title="Comparativo Bombas", layout="wide")
-st.title("🔁 Comparativo de Bombas / Sensores")
+st.title(" Comparativo de Bombas / Sensores")
 st.caption("Carga 2+ archivos (CSV/Excel) con columnas estándar: Local TimeStamp, Pressure, Temperatures, Velocity X/Y/Z (mm/s), Acceleration X/Y/Z (g).")
 
 # --- Helpers ---
